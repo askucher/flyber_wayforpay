@@ -3,7 +3,7 @@ Flyber Trusted WayForPay Integration
 
 ```Javascript
   var WayForPay, wayforpay, p, generatePurchaseUrl;
-  WayForPay = require('./wayforpay.js');
+  WayForPay = require('flyber_wayforpay');
   wayforpay = new WayForPay('test_merch_n1', 'flk3409refn54t54t*FNJRET');
   p = {
     'merchantDomainName': 'app.wepster.com',
