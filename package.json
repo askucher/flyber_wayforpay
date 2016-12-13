@@ -1,6 +1,6 @@
 {
   "name": "flyber_wayforpay",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Trusted version of wayforpay for Flyber",
   "main": "wayforpay.js",
   "repository": "",
