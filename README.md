@@ -1,6 +1,4 @@
-Flyber <-> WayForPay Integration
-
-![Flyber](http://res.cloudinary.com/nixar-work/image/upload/v1473975258/13268115_880281065449309_626424912755329334_o.jpg)
+WayForPay (Reviewed by Flyber)
 
 
 ###WayForPay provides few options how to charge user:
@@ -19,6 +17,11 @@ This is "IFrame solution"
 1. You send request from your back-end server
 2. Obtain payment url
 3. Redirect your user to payment url
+
+```
+https://secure.wayforpay.com/pay/get?merchantDomainName=app.wepster.com&merchantTransactionSecureType=AUTO&serviceUrl=http%3A%2F%2Fyourdomain.com%2Fwfp%2Freturn&orderReference=orderid001&orderDate=14898322&amount=1.00&currency=USD&productName=product%20name&productPrice=2.00&productCount=2&language=ru&transactionType=PURCHASE&merchantAccount=test_merch_n1&merchantSignature=901874bb4df660cda5e3d0d3a4687bfe
+```
+
 4. User puts his credit card information
 5. You obtain the token
 6. You charge the users by his token 
@@ -51,5 +54,7 @@ Next Time you do not need to ask user for credit card again because you can reus
   console.log(generatePurchaseUrl);
 
 ```
+
+![Flyber](http://res.cloudinary.com/nixar-work/image/upload/v1473975258/13268115_880281065449309_626424912755329334_o.jpg)
 
 http://flyber.net
