@@ -8,7 +8,7 @@ WayForPay (Reviewed by Flyber)
 * POST request (available only for organisations who has PCI DSS license)
 
 
-If you have license definetelly use "POST request" otherwise "IFrame"
+If you have license definitely use "POST request" otherwise "IFrame"
 
 This is "IFrame solution"
 
