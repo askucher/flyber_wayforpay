@@ -211,8 +211,6 @@ module.exports = (merchant_account, merchant_password) ->
       'productName'
       'productCount'
       'productPrice'
-      'clientPhone'
-      'clientEmail'
     ]
     switch @_action
       when 'COMPLETE_3DS'

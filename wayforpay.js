@@ -118,7 +118,7 @@
     this._getFieldsNameForSignature = function(){
       var purchaseFieldsAlias;
       console.log('_getFieldsNameForSignature');
-      purchaseFieldsAlias = ['merchantAccount', 'merchantDomainName', 'orderReference', 'orderDate', 'amount', 'currency', 'productName', 'productCount', 'productPrice', 'clientPhone', 'clientEmail'];
+      purchaseFieldsAlias = ['merchantAccount', 'merchantDomainName', 'orderReference', 'orderDate', 'amount', 'currency', 'productName', 'productCount', 'productPrice'];
       switch (this._action) {
       case 'COMPLETE_3DS':
         return ['transactionType', 'authorization_ticket', 'd3ds_pares'];
