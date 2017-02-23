@@ -1,0 +1,5 @@
+lsc -c *.ls
+git add .
+git commit -m "Push"
+git push origin master
+npm publish
